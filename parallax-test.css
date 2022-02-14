@@ -1,0 +1,58 @@
+.parallaxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  perspective: 3px;
+  perspective-origin: bottom;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateZ(-6px) scale(4);
+  z-index: -10;
+  background-image: url('/assets/parallax-test-1.svg');
+  background-repeat: no-repeat;
+}
+
+.bg2 {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateZ(-2px) scale(2);
+  z-index: -10;
+  background-image: url('/assets/parallax-test-2.svg');
+  background-repeat: no-repeat;
+}
+
+.fg {
+  background-image: url('/assets/parallax-test-3.svg');
+  background-repeat: no-repeat;
+  position: sticky;
+  margin-top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  transform: translateZ(0px);
+  z-index: 10;
+}
+
+.finalStatic {
+  position: absolute;
+  background-color: #5D60EF;
+  width: 100%;
+  height: 30vh;
+  bottom: 0;
+  left: 0;
+  transform: translateY(-400);
+}
