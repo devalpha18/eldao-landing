@@ -65,6 +65,10 @@ const GlobalStyle = createGlobalStyle`
     font-weight:500 !important;
     border-color: rgb(68, 113, 196) !important;
   }
+  .contactIcon{
+    color: #fff;
+    font-size: 23px;
+  }
 `;
 
 export default GlobalStyle;

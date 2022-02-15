@@ -11,14 +11,16 @@ export const Title = styled.span`
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #e1c548;
+  margin-bottom: 30px;
 `;
 
 export const SubTitle = styled.span`
   font-family: Product Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 69px;
+  font-size: 35px;
+  line-height: 60px;
+  margin-bottom: 20px;
   text-align: center;
   letter-spacing: -0.02em;
   color: white;
@@ -29,6 +31,11 @@ export const SubTitle = styled.span`
   @media screen and (max-width: 760px) {
     width: 90% !important;
     font-size: 35px !important;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 30px !important;
+    line-height: 50px !important;
+    margin: 30px 0 !important;
   }
 `;
 

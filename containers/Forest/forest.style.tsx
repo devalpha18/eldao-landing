@@ -28,8 +28,13 @@ export const ForestDiv = styled.div`
   background-attachment: scroll;
   background-size: cover;
   background-position: top center;
-  @media screen and (max-width: 500px) {
-    height: 1200px !important;
+
+  @media screen and (max-width: 600px) {
+    padding-top: 50px !important;
+    height: 800px !important;
+  }
+  @media screen and (max-width: 400px) {
+    height: 850px !important;
   }
 `;
 export const Upmountain = styled.div`
@@ -41,6 +46,9 @@ export const Upmountain = styled.div`
   background: url(/assets/images/upforest.png) no-repeat;
   background-size: cover;
   background-position: bottom center;
+  @media screen and (max-width:600px){
+   display :none !important ;
+  }
 `;
 export const DecentText = styled.div`
   font-family: Product Sans;
@@ -60,6 +68,11 @@ export const DecentText = styled.div`
     font-size: 30px !important;
     width: 90% !important;
     top: -80px !important;
+  }
+  @media screen and (max-width:600px){
+   top: -40px !important;
+   font-size: 25px !important;
+   line-height: 45px !important;
   }
 `;
 
@@ -100,6 +113,10 @@ export const SubTitle = styled.span`
   @media screen and (max-width: 760px) {
     width: 90% !important;
     font-size: 35px !important;
+  }
+  @media screen and (max-width:600px){
+    font-size: 25px !important;
+    line-height: 50px !important;
   }
 `;
 

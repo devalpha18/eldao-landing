@@ -48,7 +48,7 @@ export const QSection = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
   }
 `;
 
@@ -75,8 +75,8 @@ export const SectionTitle = styled.div`
   letter-spacing: 0.02em;
   color: #e1c548;
   @media screen and (max-width: 500px) {
-    font-size: 24px;
-    line-height: 25px;
+    font-size: 42px !important;
+    line-height: 70px !important;
   }
 `;
 
@@ -103,10 +103,10 @@ export const SectionContent = styled.ul<SectionContentProps>`
       line-height: 48px;
     }
     @media screen and (max-width: 500px) {
-      font-size: 15px;
-      line-height: 30px;
+      font-size: 19px;
+      line-height: 40px;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 400px) {
       font-size: 12px;
       line-height: 24px;
     }
