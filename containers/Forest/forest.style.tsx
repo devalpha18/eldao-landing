@@ -1,9 +1,4 @@
 import styled from 'styled-components';
-import Image from 'next/image';
-
-interface BackmountainProps {
-  transform: string;
-}
 
 export const ForestContainer = styled.div`
   width: 100vw;

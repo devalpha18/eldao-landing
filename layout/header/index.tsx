@@ -7,7 +7,6 @@ import { StyledContainer, LinkSection, MaxWidthContainer_Left } from './styled';
 import MaxWidthContainer from '../../containers/max-width';
 import { GotoAppButton } from '../../components/button';
 import LogoIcon from '../../assets/icons/logo.png';
-import LogoSmallIcon from '../../assets/icons/logo-small.png';
 import featherMenuIcon from '../../assets/icons/feather_menu.png';
 
 const Header: FC = () => {
@@ -20,7 +19,7 @@ const Header: FC = () => {
         <MaxWidthContainer maxWidth={1440} display="flex" alignItems="center" justifyContent="space-between">
           <MaxWidthContainer_Left>
             {isMobileM ? (
-              <Image src={LogoSmallIcon} width={33} height={33} alt="logoicon" />
+              <Image src={LogoIcon} width={153} height={33} alt="logoicon" />
             ) : (
               <Image src={LogoIcon} width={183} height={33} alt="logoicon" />
             )}
